@@ -1,8 +1,8 @@
 from pyautoupdate import updater
 
 u = updater.Updater()
-u.set_repository("nom_utilisateur/nom_du_depot") # Mettez votre nom d'utilisateur et le nom de votre dépôt
-u.set_current_version("1.0")
+u.set_repository("https://github.com/xegypt1n/testupdate/tree/master") # Mettez votre nom d'utilisateur et le nom de votre dépôt
+u.set_current_version("2.0")
 
 # Vérifier les mises à jour
 if u.check_for_update():
